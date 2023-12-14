@@ -1,0 +1,111 @@
+main {
+	width: 100vw;
+	height: 100vh;
+}
+nav {
+	display: flex;
+	width: 100%;
+	height: 80px;
+}
+.img-box {
+	padding-top: 16px;
+	padding-left: 450px;
+}
+.menu-box {
+	font-weight: bold;
+	font-size: 23px;
+	width: 840px;
+	height: 100%;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+	gap: 35px;
+}
+.ham {
+	padding-top: 30px;
+	display: none;
+}
+.input-box {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.input-box > input {
+	border: none;
+	background-color: aliceblue;
+	border-radius: 5px;
+	width: 280px;
+	height: 40px;
+}
+.input-box > button {
+	border: 1px solid wheat;
+	border-radius: 5px;
+	background-color: white;
+	width: 110px;
+	height: 50px;
+}
+input {
+	font-size: 16px;
+	padding-left: 20px;
+}
+.input-box > button {
+	font-weight: bold;
+	font-size: 20px;
+}
+section {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-color: antiquewhite;
+}
+.study-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	max-width: 70%;
+	background-color: antiquewhite;
+}
+.study-artica {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.buttons-box > button {
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	width: 170px;
+	height: 40px;
+}
+.buttons-box > .naver {
+	background-color: green;
+}
+.buttons-box > .google {
+	background-color: black;
+}
+.study-artica > p {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 60px;
+}
+.imag-box > img {
+	display: flex;
+	width: 550px;
+	height: 550px;
+}
+@media screen and (max-width: 1024px) {
+	.study-box {
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+	.menu-box {
+		display: none;
+	}
+	.ham {
+		display: block;
+	}
+}
